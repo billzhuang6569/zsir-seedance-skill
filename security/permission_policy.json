@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "scope": "Prompt-only skill; no execution capabilities required or approved.",
+  "capabilities": {
+    "network": {
+      "required": false,
+      "decision": "not-required",
+      "reason": "Pure text prompt authoring; the skill contains no executable scripts."
+    },
+    "file_write": {
+      "required": false,
+      "decision": "not-required",
+      "reason": "Pure text prompt authoring; the skill contains no executable scripts."
+    },
+    "subprocess": {
+      "required": false,
+      "decision": "not-required",
+      "reason": "Pure text prompt authoring; the skill contains no executable scripts."
+    },
+    "interactive": {
+      "required": false,
+      "decision": "not-required",
+      "reason": "Pure text prompt authoring; the skill contains no executable scripts."
+    }
+  }
+}

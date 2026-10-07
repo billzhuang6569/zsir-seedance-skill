@@ -1,0 +1,8 @@
+{
+  "artifact_index": "reports/artifact-index.json",
+  "artifact_index_sha256": "40a25f3c11217edc70e2e0cc1139632019cee01d106e454df2bcf9ff361dea36",
+  "mode": "portable",
+  "run_id": "portable-package",
+  "schema_version": "1.0",
+  "skill_name": "zsir-seedance-master"
+}

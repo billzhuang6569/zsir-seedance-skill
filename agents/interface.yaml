@@ -1,0 +1,22 @@
+interface:
+  display_name: "ZSir Seedance Master"
+  short_description: "创建、优化和系列化中英视频 Prompt"
+  default_prompt: "使用 $zsir-seedance-master 按创作模式和输入约束选择合同，输出当前模式及中英文 Prompt，只写提示词。"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    generic: "neutral-source"

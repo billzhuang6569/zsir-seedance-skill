@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "ok": true,
+  "skill_dir": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master",
+  "generated_at": "2026-09-28",
+  "summary": {
+    "waiver_count": 0,
+    "active_count": 0,
+    "expired_count": 0,
+    "invalid_count": 0,
+    "covered_gate_count": 0,
+    "covered_gate_keys": [],
+    "waiver_candidate_count": 0,
+    "waiverable_open_count": 0,
+    "non_waivable_count": 0
+  },
+  "policy": {
+    "blocker_waivers_allowed": false,
+    "minimum_reason_chars": 20,
+    "expires_required": true,
+    "review_studio_gate_keys": [
+      "architecture-maintainability",
+      "context-budget",
+      "intent-canvas",
+      "operations-loop",
+      "output-lab",
+      "permission-gates",
+      "permission-runtime",
+      "python-compat",
+      "registry-audit",
+      "release-notes",
+      "review-waivers",
+      "runtime-matrix",
+      "skill-atlas",
+      "trigger-lab",
+      "trust-report",
+      "world-class-evidence"
+    ],
+    "known_gate_keys": [
+      "architecture-maintainability",
+      "context-budget",
+      "intent-canvas",
+      "operations-loop",
+      "output-lab",
+      "permission-gates",
+      "permission-runtime",
+      "python-compat",
+      "registry-audit",
+      "release-notes",
+      "runtime-matrix",
+      "skill-atlas",
+      "trigger-lab",
+      "trust-report"
+    ],
+    "waiverable_gate_keys": [
+      "architecture-maintainability",
+      "context-budget",
+      "intent-canvas",
+      "operations-loop",
+      "output-lab",
+      "permission-gates",
+      "permission-runtime",
+      "python-compat",
+      "registry-audit",
+      "release-notes",
+      "runtime-matrix",
+      "skill-atlas",
+      "trigger-lab",
+      "trust-report"
+    ],
+    "non_waivable_gate_keys": [
+      "review-waivers",
+      "world-class-evidence"
+    ]
+  },
+  "waivers": [],
+  "waiver_candidates": [],
+  "failures": [],
+  "warnings": [],
+  "artifacts": {
+    "json": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master/reports/review_waivers.json",
+    "markdown": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master/reports/review_waivers.md"
+  }
+}

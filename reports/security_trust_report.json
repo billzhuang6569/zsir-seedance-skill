@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "skill_dir": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master",
+  "summary": {
+    "scanned_files": 13,
+    "script_count": 0,
+    "internal_module_count": 0,
+    "secret_findings": 0,
+    "dependency_files": [],
+    "network_script_count": 0,
+    "network_policy_covered_count": 0,
+    "network_policy_missing_count": 0,
+    "file_write_script_count": 0,
+    "permission_required_count": 0,
+    "permission_approved_count": 0,
+    "permission_missing_count": 0,
+    "permission_invalid_count": 0,
+    "permission_expired_count": 0,
+    "help_smoke_checked_count": 0,
+    "help_smoke_failed_count": 0,
+    "interactive_script_count": 0,
+    "package_hash_scope": "source-contract-without-generated-reports",
+    "package_hash_file_count": 13,
+    "package_sha256": "6344adb8486238b4aed8f0f8345e95062ed95e7e82465df4e26e0cc83b0f05d9"
+  },
+  "failures": [],
+  "warnings": [
+    "No dependency or lock file detected"
+  ],
+  "secrets": [],
+  "scripts": [],
+  "dependencies": {
+    "present": [],
+    "pinned": [],
+    "unpinned": []
+  },
+  "network_policy": {
+    "present": false,
+    "path": "security/network_policy.json",
+    "schema_version": "",
+    "network_script_count": 0,
+    "covered_scripts": [],
+    "missing_scripts": [],
+    "mismatches": [],
+    "default_policy": {}
+  },
+  "help_smoke": {
+    "enabled": true,
+    "timeout_seconds": 5.0,
+    "candidate_count": 0,
+    "checked_count": 0,
+    "passed_count": 0,
+    "failed_count": 0,
+    "skipped_count": 0,
+    "failed_scripts": [],
+    "results": [],
+    "skipped": []
+  },
+  "permission_governance": {
+    "present": true,
+    "path": "security/permission_policy.json",
+    "schema_version": "1.0",
+    "reviewed_at": "",
+    "required_capabilities": [],
+    "approved_capabilities": [],
+    "missing_capabilities": [],
+    "invalid_capabilities": [],
+    "expired_capabilities": [],
+    "approval_count": 0,
+    "required_count": 0,
+    "missing_count": 0,
+    "invalid_count": 0,
+    "expired_count": 0,
+    "approvals": []
+  },
+  "trust_metadata": {
+    "source_tier": "local",
+    "remote_inline_execution": "forbid",
+    "remote_metadata_policy": "allow-metadata-only"
+  },
+  "artifacts": {
+    "json": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master/reports/security_trust_report.json",
+    "markdown": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master/reports/security_trust_report.md"
+  }
+}

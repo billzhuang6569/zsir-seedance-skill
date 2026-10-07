@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    {
+      "name": "zsir-seedance-master",
+      "path": "."
+    }
+  ],
+  "shared_resources": []
+}

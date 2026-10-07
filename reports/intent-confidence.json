@@ -1,0 +1,84 @@
+{
+  "score": 100,
+  "band": "high",
+  "gate_passed": true,
+  "authoring_ready": true,
+  "strengths": [
+    "The recurring job is concrete enough to anchor the package.",
+    "Real input shape is explicit.",
+    "The hand-back output is concrete.",
+    "Boundary exclusions are already explicit.",
+    "Operational constraints are visible."
+  ],
+  "gaps": [],
+  "follow_up_questions": [],
+  "clarification_plan": {
+    "decision": "proceed",
+    "language": "zh-CN",
+    "ambiguity_type": "",
+    "target_slot": "",
+    "direction_slot": "",
+    "question": "",
+    "rationale": "",
+    "decision_impact": "",
+    "blocking_ambiguities": [],
+    "stop_reason": "clear",
+    "inference_quality": "high"
+  },
+  "assumptions": [],
+  "anchor_sentence": "为 Seedance 2.5 编写、优化和系列化可复制视频提示词，以工作模式、生成任务和按需表现控制路由。 Primary output: 当前模式，以及语义一致、可独立复制的完整中文 Prompt 和 English Prompt；缺不可替代输入时只问关键问题。. Exclusions: 生成或上传视频, CLI/API 接入, 剪辑软件操作, 纯图像提示词.",
+  "recommended_action": "Intent is clear enough to package the first routeable version.",
+  "context": {
+    "job": "为 Seedance 2.5 编写、优化和系列化可复制视频提示词，以工作模式、生成任务和按需表现控制路由。",
+    "real_inputs": [
+      "用户创意或脚本",
+      "原始 Prompt 与失败反馈",
+      "图片、视频、音频参考及明确角色",
+      "系列固定项与变量"
+    ],
+    "primary_output": "当前模式，以及语义一致、可独立复制的完整中文 Prompt 和 English Prompt；缺不可替代输入时只问关键问题。",
+    "description": "纯 Prompt 技能，不执行视频生成。",
+    "exclusions": [
+      "生成或上传视频",
+      "CLI/API 接入",
+      "剪辑软件操作",
+      "纯图像提示词"
+    ],
+    "constraints": [
+      "只继承旧版模式声明与中英输出格式",
+      "创建、优化、系统三模式与生成任务正交",
+      "表演按六类语义信号局部加载，不因场景、群像或普通人物出镜自动加入",
+      "不伪造素材观察与成功率",
+      "用户明确要求作为新 Skill 上传 SkillHub，不覆盖 seedance-prompt；不做盲评，以三个独立 Agent 生产案例测试。",
+      "本轮授权补充按需相机控制，并通过 APP 共享到一探究竟团队；成功后向飞书潜水馆发送普通上线消息。"
+    ],
+    "standards": [
+      "双语 token、数值与原台词一致",
+      "编辑只改授权维度",
+      "各条系统 Prompt 完整展开固定项",
+      "图生与首尾帧服从锚点",
+      "缺失边界不虚构",
+      "成片终态与创作质量分别验收"
+    ],
+    "correction": "用户补充：单人特写和明确表演只是例子，触发条件需补全，但表演模块必须按需加载。",
+    "user_references": [
+      "用户指定 seedance-20/skills/seedance-prompt/SKILL.md",
+      "用户指定 yao-meta-skill",
+      "官方 Prompt Writing Guide 与已记录社区研究"
+    ],
+    "skill_name": "zsir-seedance-master",
+    "assumptions": [],
+    "clarification_state": {
+      "decision": "proceed",
+      "rounds_used": 0,
+      "max_rounds": 2,
+      "asked_ambiguities": [],
+      "resolved_ambiguities": [],
+      "correction_pending": false,
+      "blocking_ambiguities": [],
+      "stop_reason": "clear",
+      "inference_quality": "high"
+    },
+    "language": "zh-CN"
+  }
+}

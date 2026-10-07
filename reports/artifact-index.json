@@ -1,0 +1,167 @@
+{
+  "artifacts": [
+    {
+      "path": "reports/adoption_drift_report.json",
+      "sha256": "45d28b7cca13bc00f106b65b4ebd29c80eb3cad6f236ae664a0a21c35a2f64e1",
+      "size": 2037
+    },
+    {
+      "path": "reports/adoption_drift_report.md",
+      "sha256": "85326515e54955601fd81c009174b5534c28e963b7e3a93da5ec050b7d3d1043",
+      "size": 1075
+    },
+    {
+      "path": "reports/atlas/catalog.json",
+      "sha256": "5f77b238239bb1da22d4c047596b6de20e131bc0df0cc42067caf142599ddc42",
+      "size": 2777
+    },
+    {
+      "path": "reports/atlas/dependency_graph.json",
+      "sha256": "402e62e8fd2c95d6461b456e4fc270581e4441bcaa6210b007326040c3ec5942",
+      "size": 115
+    },
+    {
+      "path": "reports/atlas/drift_signals.json",
+      "sha256": "ba41b587a9ebbc1e4bbe8b6c0b304210144d970a59764154c442014756afb910",
+      "size": 653
+    },
+    {
+      "path": "reports/atlas/no_route_opportunities.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "reports/atlas/owner_review_gaps.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "reports/atlas/route_overlap_matrix.csv",
+      "sha256": "da1456a13beb973cf48acb97278a2b41b5cd5e78fd49547af5fb6a35cec05126",
+      "size": 70
+    },
+    {
+      "path": "reports/atlas/stale_skills.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "reports/compiled_targets.json",
+      "sha256": "c0bea944c79bf6cf142d7944187469de8f72c1c7541fee1256e40d58ffee3596",
+      "size": 39538
+    },
+    {
+      "path": "reports/compiled_targets.md",
+      "sha256": "078dfb91c77ddafd440a3211cb678d472353deb6a3a5e0f9e7880ddfdb324ccd",
+      "size": 1925
+    },
+    {
+      "path": "reports/conformance_matrix.json",
+      "sha256": "fad9be46c39dc183f3b28654893a54bf5c4fab9f18020bcf8f1ac3e3124426d6",
+      "size": 3976
+    },
+    {
+      "path": "reports/conformance_matrix.md",
+      "sha256": "f69b1c03a1f2626d5807c2ee170eca386fe1da79b237e8830f4a54d6315a9615",
+      "size": 388
+    },
+    {
+      "path": "reports/install_simulation.json",
+      "sha256": "23fef597a175af705f85d0b1dbb7b0f565a5b972c5bc674213a5e0a27b087987",
+      "size": 5100
+    },
+    {
+      "path": "reports/install_simulation.md",
+      "sha256": "2abdadbfb61a0489cc78d47cae370fd50f1c087517c85fde20676ce2954d0495",
+      "size": 2451
+    },
+    {
+      "path": "reports/intent-confidence.json",
+      "sha256": "bedc60c5964e80186ec567edfced93c89839bc61ae9dc0a9bf58f5ae02967bb6",
+      "size": 3551
+    },
+    {
+      "path": "reports/intent-confidence.md",
+      "sha256": "20584486daf4d9e9ff6a55a7955bd2a1ee9267eb774fa409e6b4c42eadf7986d",
+      "size": 1268
+    },
+    {
+      "path": "reports/intent-context.json",
+      "sha256": "b375f3b863fd960bb7e485ea3cb84180395887fa1cffc5e5333ca441b5804f8c",
+      "size": 2210
+    },
+    {
+      "path": "reports/output_quality_scorecard.md",
+      "sha256": "70b6e1070dafc324d7a9b690774792ea178d703d720eb3128065476da0c069da",
+      "size": 5133
+    },
+    {
+      "path": "reports/python_compatibility.json",
+      "sha256": "8b29bbf3b4abb2c5372cd95d10b3e6763c04ce3478f09fbd4bd0e930c9202ec6",
+      "size": 900
+    },
+    {
+      "path": "reports/python_compatibility.md",
+      "sha256": "0d68fe948396ec08949ba349dac48ebf9f220961dd4d3713e41711b20d944ddc",
+      "size": 452
+    },
+    {
+      "path": "reports/review-studio.html",
+      "sha256": "1cfab147123e0c13180d3596ee8a73d843e72207bddf1623ffae8aa2c21cf407",
+      "size": 59534
+    },
+    {
+      "path": "reports/review_waivers.json",
+      "sha256": "919d1ddb3e1bda6b021af017ef6431aa4a5594975c9a54c681f116c995261bd6",
+      "size": 2361
+    },
+    {
+      "path": "reports/review_waivers.md",
+      "sha256": "4e276be0dd8db02141476d0f5a12285af4e3803166159339318df352a45f610c",
+      "size": 1118
+    },
+    {
+      "path": "reports/runtime_permission_probes.json",
+      "sha256": "b3c1fe4022507fb3e6a352d98823cc915322db5f030ae6143a24dd479d8012ed",
+      "size": 6761
+    },
+    {
+      "path": "reports/runtime_permission_probes.md",
+      "sha256": "4feae5d6e0d6604d8e0c0e4bdec7053d2027e511451e6f5d4a510cd0da643ff0",
+      "size": 1646
+    },
+    {
+      "path": "reports/security_trust_report.json",
+      "sha256": "faab7949d23ea094642c64ac9dd22981892d9ce72fca252584d026ab1c9b0074",
+      "size": 2656
+    },
+    {
+      "path": "reports/security_trust_report.md",
+      "sha256": "64253940d3039c731cc81154e27761636e3bca3bbb4fc168dcc87c735a8d7b4a",
+      "size": 1472
+    },
+    {
+      "path": "reports/skill-overview.html",
+      "sha256": "442497169e439d1371fa374e0d0ab0e7a3bba89c02371203bcf49145f3c06eff",
+      "size": 71757
+    },
+    {
+      "path": "reports/skill_atlas.html",
+      "sha256": "a34793267c2a48c6a88e5d5ee8a74585a87fb918927f368001eb412f77f40957",
+      "size": 2837
+    },
+    {
+      "path": "reports/skill_atlas.json",
+      "sha256": "7c8c57601508daf02e9060bf2b79d1ed6976d9d42fef3e0561c2be70829bb0f2",
+      "size": 7335
+    },
+    {
+      "path": "reports/upgrade_check.md",
+      "sha256": "e7a625a556567b3424c15196abfd492db75045f998cd684348d6a1a272b8d653",
+      "size": 592
+    }
+  ],
+  "run_id": "portable-package",
+  "schema_version": "1.0",
+  "skill_name": "zsir-seedance-master"
+}

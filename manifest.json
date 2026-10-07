@@ -1,0 +1,24 @@
+{
+  "name": "zsir-seedance-master",
+  "version": "1.1.0",
+  "owner": "Bill",
+  "updated_at": "2026-09-28",
+  "review_cadence": "per-release",
+  "status": "experimental",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "target_platforms": [
+    "openai",
+    "generic"
+  ],
+  "skill_ir_source": "skill-ir.json",
+  "output_contract": "当前模式 + 独立完整中文 Prompt + 语义一致 English Prompt；原台词语言不变。",
+  "rollback_boundary": "Update only zsir-seedance-master; retain prior package and preserve seedance-prompt. Team sharing to 一探究竟 is explicitly authorized; Agent installation is not implied.",
+  "release_status": "tested-pending-team-share",
+  "factory_components": [
+    "evals",
+    "reports",
+    "examples"
+  ],
+  "license": "MIT"
+}

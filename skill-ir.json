@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0.0",
+  "name": "zsir-seedance-master",
+  "title": "ZSir Seedance Master",
+  "job_to_be_done": "为 Seedance 2.5 / 即梦视频创建、优化、翻译或压缩中英文 Prompt，或建立固定元素、风格、运动规则的系列提示词系统。处理文生、图生、多模态参考、首尾帧、分镜、白模、视频编辑、延长与转场的提示词；只写 Prompt，不生成视频、不上传素材、不调用 CLI，不处理纯图像提示词、剪辑软件操作或 API 接入。",
+  "trigger_surface": {
+    "description": "为 Seedance 2.5 / 即梦视频创建、优化、翻译或压缩中英文 Prompt，或建立固定元素、风格、运动规则的系列提示词系统。处理文生、图生、多模态参考、首尾帧、分镜、白模、视频编辑、延长与转场的提示词；只写 Prompt，不生成视频、不上传素材、不调用 CLI，不处理纯图像提示词、剪辑软件操作或 API 接入。",
+    "should_trigger": [
+      "为 Seedance 2.5 创建一个雨夜电影视频提示词",
+      "优化这个即梦视频 Prompt，保留中文对白",
+      "为 Seedance 建立固定纸艺风格的系列提示词",
+      "Seedance 首尾帧 Prompt，图一到图二连续变化",
+      "即梦视频提示词：只参考视频运镜，不复制人物",
+      "翻译 Seedance Prompt，台词保持中文原文",
+      "为 Seedance 延长已接受视频写 Prompt",
+      "Seedance 白模视频提示词，保留运动重渲染外观",
+      "Seedance 视频编辑 Prompt，只换背景",
+      "压缩即梦视频提示词，不改变参考映射"
+    ],
+    "should_not_trigger": [
+      "请写一份晚餐购物清单",
+      "为 GPT Image 写图片提示词",
+      "安装即梦 CLI 并登录",
+      "给 Seedance 接 API",
+      "用剪映剪辑视频",
+      "下载已完成的视频",
+      "直接生成视频，不需要提示词",
+      "总结官方文档"
+    ],
+    "edge_cases": [
+      "Midjourney 产品图 Prompt",
+      "Seedance API 如何接入",
+      "优化 Python 视频编码器",
+      "为 Kling 写视频提示词",
+      "即梦图片提示词",
+      "检查 Seedance 余额",
+      "Seedance 2.5 有哪些功能",
+      "直接执行 Seedance Prompt 生成视频"
+    ]
+  },
+  "workflow": {
+    "steps": [
+      "选择创建、优化或系统模式；保持用户修改范围。",
+      "依据素材控制权选择生成任务并按需读取任务段。",
+      "组合目标、素材、时间、连续性等最小合同；六类表演信号命中才读取 acting.md。",
+      "编译完整中文与英文 Prompt；保留原台词和 token。",
+      "检查输入冲突、时间预算、系列不变量和虚构观察，不能执行生成。"
+    ],
+    "decision_points": [
+      "已有 Prompt 的翻译/压缩不重新导演。",
+      "源视频编辑与优化模式正交。",
+      "普通群像、场景、对白和走位不自动加载表演。",
+      "缺少真实边界时不能声称已经观察源片。",
+      "运镜、光学或复合路径需要时读取 camera.md；简单固定镜头、纯色修改不加载，表演独立判断。"
+    ],
+    "failure_modes": [
+      "中文台词在英文 Prompt 中被误译。",
+      "参考身份、动作、运镜越权迁移。",
+      "全景群像被自动加入微表情。",
+      "以文字保证精准运动或像素一致。"
+    ]
+  },
+  "resources": {
+    "references": [
+      "references/acting.md",
+      "references/contracts.md",
+      "references/craft.md",
+      "references/optimize.md",
+      "references/surface-and-sources.md",
+      "references/system.md",
+      "references/tasks.md",
+      "references/camera.md"
+    ],
+    "scripts": [],
+    "assets": [],
+    "reports": [
+      "reports/output_quality_scorecard.md",
+      "reports/security_trust_report.md"
+    ]
+  },
+  "eval_plan": {
+    "trigger": [
+      "evals/regression-cases.json"
+    ],
+    "output": [
+      "examples/prompts.md"
+    ],
+    "adversarial": [
+      "evals/regression-cases.json"
+    ],
+    "baseline": "not_requested_user_selected_independent_production_cases"
+  },
+  "risk": {
+    "output_risk": "low",
+    "execution_risk": "low",
+    "trust_boundary": "team"
+  },
+  "governance": {
+    "owner": "Bill",
+    "maturity": "production",
+    "review_cadence": "per-release",
+    "review_due": ""
+  },
+  "targets": [
+    "openai",
+    "generic"
+  ],
+  "source_files": [
+    "SKILL.md",
+    "manifest.json",
+    "agents/interface.yaml"
+  ]
+}

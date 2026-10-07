@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "ok": true,
+  "generated_at": "2026-09-28",
+  "root": "/Users/billzhuang/Documents/AI Workspace/claude code/SKILL打造工厂/sessions/20260928_Seedance25Prompt路由升级/zsir-seedance-master",
+  "summary": {
+    "target_python": "3.11",
+    "file_count": 0,
+    "issue_count": 0,
+    "syntax_error_count": 0,
+    "fstring_311_violation_count": 0,
+    "decision": "pass"
+  },
+  "rules": [
+    {
+      "key": "current-python-syntax",
+      "reason": "Every scanned Python source file must compile under the running interpreter."
+    },
+    {
+      "key": "fstring-expression-backslash",
+      "reason": "Python 3.11 rejects backslashes inside f-string expressions; keep escaping outside the expression."
+    }
+  ],
+  "files": [],
+  "issues": [],
+  "artifacts": {
+    "json": "reports/python_compatibility.json",
+    "markdown": "reports/python_compatibility.md"
+  }
+}
